@@ -1,0 +1,247 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+.page {
+display: flex;
+flex-wrap: wrap;
+font-family: 'Montserrat', sans-serif;
+line-height: 1.3;
+}
+
+p {
+color: #FFFFFF;
+font-size: 20px;
+}
+
+h1, h2 {
+color: #800020;
+}
+
+h1 {
+font-size: 107px;
+}
+
+h2 {
+padding: 20px;
+font-size: 27px;
+}
+
+a {
+color: #FFFFFF;
+}
+
+.section {
+width: 100%;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #800020;
+}
+
+.header {
+height: 120px;
+}
+
+.testata {
+height: 400px;
+flex-direction: column;
+background-color: #FFFFFF;
+}
+
+.presentazione {
+height: 380px;
+}
+
+.project1 {
+width: 50%;
+height: 500px;
+}
+
+.description1 {
+width: 50%;
+height: 500px;
+text-align: left;
+padding: 85px;
+}
+
+.project2 {
+width: 50%;
+height: 500px;
+}
+
+.description2 {
+width: 50%;
+height: 500px;
+text-align: left;
+padding: 85px;
+}
+
+.project3 {
+width: 50%;
+height: 500px;
+}
+
+.description3 {
+width: 50%;
+height: 500px;
+text-align: left;
+padding: 85px;
+}
+
+.footer1 {
+height: 200px;
+width: 50%;
+flex-direction: column;
+}
+
+.footer2 {
+height: 200px;
+width: 50%;
+}
+
+.item1,
+.item2,
+.item3 {
+width: 50px;
+}
+
+.port1,
+.port2,
+.port3 {
+padding: 50px;
+}
+
+/*medium styles*/
+@media only screen and (min-width:401px) and (max-width:1200px){
+h1 {
+font-size: 80px;
+}
+h2 {
+font-size: 20px;
+padding: 10px;
+padding-top: 15px;
+padding-bottom:15px;
+}
+p{
+font-size: 17px;
+}
+.header {
+height: 80px;
+}
+.testata {
+height: 300px;
+}
+.presentazione{
+height: 280px;
+}
+
+.project1,
+.project2,
+.project3,
+.description1,
+.description2,
+.description3,
+.footer1,
+.footer2 {
+width: 100%;
+height: 350px;
+}
+
+.description1,
+.description2,
+.description3 {
+padding: 30px;
+padding-bottom: 50px;
+}
+
+.footer1,
+.footer2{
+height: 150px;
+}
+
+.footer2 {
+padding-bottom: 70px;
+}
+.contatti {
+padding-bottom: 15px;
+padding-top: 80px;
+}
+
+}
+
+/*small styles*/
+@media only screen and (max-width:400px){
+
+h1 {
+font-size: 70px;
+}
+
+h2 {
+font-size: 18px;
+padding: 10px;
+padding-top: 15px;
+padding-bottom:15px;
+}
+
+p{
+font-size: 15px;
+}
+
+.header {
+height: 80px;
+}
+
+.testata {
+height: 300px;
+}
+
+.presentazione{
+height: 280px;
+}
+
+.project1,
+.project2,
+.project3,
+.description1,
+.description2,
+.description3,
+.footer1,
+.footer2 {
+width: 100%;
+height: 400px;
+}
+
+.description1,
+.description2,
+.description3 {
+padding: 30px;
+padding-bottom: 50px;
+}
+
+.footer1,
+.footer2{
+height: 150px;
+}
+
+.footer2 {
+padding-bottom: 70px;
+}
+
+.contatti {
+padding-bottom: 15px;
+padding-top: 80px;
+}
+
+.port1,
+.port2,
+.port3 {
+max-width: 310px;
+max-height: 200px;
+}
+
+}
