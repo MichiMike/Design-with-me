@@ -249,6 +249,8 @@ padding-top: 80px;
 .port2, 
 .port3 {
 display: flex; 
+width: 85%;
+height: 85%;
 }
  
 }
