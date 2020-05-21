@@ -220,7 +220,7 @@ height: 400px;
 .description2,
 .description3 {
 padding: 30px;
-padding-bottom: 50px;
+padding-bottom: 40px;
 }
 
 .footer1,
@@ -237,11 +237,19 @@ padding-bottom: 15px;
 padding-top: 80px;
 }
 
-.port1,
-.port2,
-.port3 {
+.port1 {
  height: 380px;
- width: 390px;
+ width: 400px;
 }
 
+.port2 {
+ height: 100%;
+ width: 100%;
+}
+ 
+.port3 {
+ height: 390px;
+ width: 450px;
+}
+ 
 }
