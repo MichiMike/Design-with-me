@@ -248,8 +248,9 @@ padding-top: 80px;
 .port1,
 .port2, 
 .port3 {
-width: 310;
-height: 200;
+width: 620;
+height: 400;
+padding: 0;
 }
  
 }
