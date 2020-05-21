@@ -171,6 +171,13 @@ padding-bottom: 70px;
 padding-bottom: 15px;
 padding-top: 80px;
 }
+  
+.port1,
+.port2,
+.port3 {
+padding: 0px;
+max-width: 100%;
+}
 
 }
 
