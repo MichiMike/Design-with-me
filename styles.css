@@ -117,7 +117,7 @@ padding: 50px;
 }
 
 /*medium styles*/
-@media only screen and (min-width:401px) and (max-width:1200px){
+@media only screen and (min-width:401px) and (max-width:960px){
 h1 {
 font-size: 80px;
 }
@@ -172,6 +172,12 @@ padding-bottom: 15px;
 padding-top: 80px;
 }
 
+.port1,
+.port2, 
+.port3 {
+ height: 500px;
+ width: 900px;
+} 
 }
 
 /*small styles*/
@@ -237,16 +243,8 @@ padding-bottom: 15px;
 padding-top: 80px;
 }
 
-.port1 {
- height: 380px;
- width: 400px;
-}
-
-.port2 {
- height: 100%;
- width: 100%;
-}
- 
+.port1,
+.port2, 
 .port3 {
  height: 390px;
  width: 450px;
