@@ -113,7 +113,8 @@ width: 50px;
 .port1,
 .port2,
 .port3 {
-padding: 50px;
+padding: 80px;
+
 }
 
 /*medium styles*/
@@ -177,6 +178,7 @@ padding-top: 80px;
 .port3 {
  height: 500px;
  width: 900px;
+ padding: 50px;
 } 
 }
 
@@ -248,6 +250,7 @@ padding-top: 80px;
 .port3 {
  height: 390px;
  width: 450px;
+ padding: 10px;
 }
  
 }
